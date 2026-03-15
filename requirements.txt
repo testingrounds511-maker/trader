@@ -1,0 +1,26 @@
+# Phantom Trader v3 — FundedNext Edition
+# pip install -r requirements.txt
+
+# MT5 connection (Windows only)
+MetaTrader5>=5.0.45
+
+# AI Analysis
+anthropic>=0.39.0
+
+# Technical Analysis
+pandas>=2.1.0
+numpy>=1.26.0
+ta>=0.11.0          # Technical indicators library
+
+# Dashboard
+streamlit>=1.38.0
+plotly>=5.18.0
+
+# News
+requests>=2.31.0
+
+# Config
+python-dotenv>=1.0.0
+
+# Utilities
+schedule>=1.2.0
