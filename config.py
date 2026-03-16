@@ -109,6 +109,10 @@ class Config:
         self.anthropic_api_key = os.getenv("ANTHROPIC_API_KEY", "")
         self.claude_model = os.getenv("CLAUDE_MODEL", "claude-haiku-4-5-20251001")
         self.groq_api_key = os.getenv("GROQ_API_KEY", "")
+        self.groq_model = os.getenv("GROQ_MODEL", "llama-3.3-70b-versatile")
+        self.groq_model_fallbacks = [
+            s.strip() for s in os.getenv("GROQ_MODEL_FALLBACKS", "llama-3.1-8b-instant").split(",") if s.strip()
+        ]
 
         # Trading
         symbols_env = os.getenv("SYMBOLS", "")

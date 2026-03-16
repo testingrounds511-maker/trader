@@ -16,7 +16,7 @@ streamlit>=1.38.0           # Web GUI
 plotly>=5.18.0              # Interactive charts
 
 # === ASYNC ENGINE (Wolf v3.6) ===
-aiohttp>=3.9.0              # Async HTTP for data_layer + intelligence_feed
+aiohttp>=3.9.0              # Async HTTP for data_layer + intelligence_feed + analyst
 feedparser>=6.0.0           # RSS parsing (SEC, DOJ, FDA, CNBC)
 
 # === NLP & SENTIMENT ===
